@@ -30,3 +30,31 @@
 如果你顺利看完了上面的这些资源，应该已经算是20%的深度学习专家了；如果你做完了上面这些资源的Reading Material、Assignment和Lab，应该已经算是80%的深度学习专家了。到这里，你应该有能力看懂很多顶会的论文，当然这需要一定的时间。
 ## 前沿进展
 ### 文献
+了解一个领域最好的方式还是阅读经典的、里程碑式的文献。上个版块中的课程自带的Reading Material都是极其重要的里程碑文献，请务必仔细阅读、反复阅读！ 接下来给大家推荐深度学习一些相关的会议，排名越靠前推荐度越高：
+
+- 偏理论类（创新性更高，意义更大）：ICLR，NIPS，ICML
+- 偏重应用类（一般来说创新性有限）：AAAI，IJCAI
+- 计算机视觉：CVPR，ICCV，ECCV
+- 自然语言处理：ACL，EMNLP，NaACL
+把握好上游的论文，看下游的、应用的自然会简单很多。
+### 书籍
+对于教科书，最为推荐的是Ian Goodfellow等人的[Deep Learning Book](http://www.deeplearningbook.org/)，这是一本还没有出版就已经被引用几百次的教科书，价值可见一斑。 复旦大学邱锡鹏老师的[神经网络与深度学习](https://nndl.github.io/)讲义是很好的中文参考资料。
+## 框架与实现
+主流框架有[Tensorflow](https://www.tensorflow.org/)，[Theano](http://deeplearning.net/software/theano/)，[Torch](http://torch.ch/)，[MXNet](http://mxnet.io/)和[Caffe](http://caffe.berkeleyvision.org/) ,下面作简单介绍：
+
+|框架|编程语言|主导者|特点|
+|---|---|---|---|
+|Tensorflow|Python|Google|Google大力支持，新推出，效率一般
+|Theano|Python|Bengjo等人|历史最久，Bengio等人主导，debug稍显苦难
+|Torch|Lua|Facebook为主|FB主导，实际运用较多，较火，cv\nlp\rl痛吃
+/MXNet/Many/Baidu,NYU, CMU/效率极高，支持语言多，扩展性强
+/Caffe/Python/BerkeleyVLC/在计算机视觉中运用量最广泛，不使用与NLP
+
+一般来说，每个team会有一个大家都用的框架，具体使用要看应用环境。
+## 参考资源
+编程上的问题请尽量问Google和Stackoverflow，以及各种group、论坛。用百度搜一般你就走远了：） 理论上的问题也可以Google，尽量自己思考、与同伴交流、查阅教科书。知乎上也有一些好的回答，但一般来说在上面烧掉的时间是值不回本的。
+## 常见问题
+1.（知乎上有）好多资料、好多大神推荐的routine，我该选哪个？  
+答： 一般来说每个方案都有一定道理也一定会有缺陷，选一个能接受的做下去比刷知乎来的有用的多。  
+2.论文怎么看，看得好慢怎么办？  
+答： 英语基础其实不那么重要，因为CS的论文比英语考试的阅读要容易懂太多了，你去背红宝书学长难句是不能解决问题的，多读多思考，套路就在那里。
